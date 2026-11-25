@@ -1,0 +1,182 @@
+{
+  "roles": [
+    {"name": "Data Analyst", "domain": "Data", "avg_salary": "$75,000", "demand_level": "High", "roadmap_url": "https://roadmap.sh/data-analyst"},
+    {"name": "Data Engineer", "domain": "Data", "avg_salary": "$125,000", "demand_level": "Very High", "roadmap_url": "https://roadmap.sh/data-engineer"},
+    {"name": "Data Scientist", "domain": "AI & Data", "avg_salary": "$130,000", "demand_level": "High", "roadmap_url": "https://roadmap.sh/ai-data-scientist"},
+    {"name": "Machine Learning Engineer", "domain": "AI & Data", "avg_salary": "$145,000", "demand_level": "Very High", "roadmap_url": "https://roadmap.sh/mlops"},
+    {"name": "AI & GraphRAG Engineer", "domain": "AI & Data", "avg_salary": "$155,000", "demand_level": "Explosive", "roadmap_url": "https://roadmap.sh/ai-engineer"},
+    {"name": "Backend Developer", "domain": "Software Engineering", "avg_salary": "$115,000", "demand_level": "High", "roadmap_url": "https://roadmap.sh/backend"},
+    {"name": "Full Stack Developer", "domain": "Software Engineering", "avg_salary": "$120,000", "demand_level": "High", "roadmap_url": "https://roadmap.sh/full-stack"},
+    {"name": "DevOps & Cloud Engineer", "domain": "Infrastructure", "avg_salary": "$135,000", "demand_level": "Very High", "roadmap_url": "https://roadmap.sh/devops"},
+    {"name": "Systems & C++ Developer", "domain": "Software Engineering", "avg_salary": "$130,000", "demand_level": "Moderate", "roadmap_url": "https://roadmap.sh/cpp"},
+    {"name": "Analytics Engineer", "domain": "Data", "avg_salary": "$120,000", "demand_level": "High", "roadmap_url": "https://roadmap.sh/data-analyst"}
+  ],
+  "skills": [
+    {"name": "Python", "category": "Programming", "guide_url": "https://roadmap.sh/python"},
+    {"name": "SQL", "category": "Databases", "guide_url": "https://roadmap.sh/sql"},
+    {"name": "Neo4j & Cypher", "category": "Databases", "guide_url": "https://roadmap.sh/ai-engineer"},
+    {"name": "C++", "category": "Programming", "guide_url": "https://roadmap.sh/cpp"},
+    {"name": "JavaScript", "category": "Programming", "guide_url": "https://roadmap.sh/javascript"},
+    {"name": "Git & GitHub", "category": "DevOps", "guide_url": "https://roadmap.sh/git-github"},
+    {"name": "Docker", "category": "DevOps", "guide_url": "https://roadmap.sh/docker"},
+    {"name": "AWS / Cloud", "category": "Cloud", "guide_url": "https://roadmap.sh/aws"},
+    {"name": "Apache Spark", "category": "Data Engineering", "guide_url": "https://roadmap.sh/data-engineer"},
+    {"name": "ETL Pipelines", "category": "Data Engineering", "guide_url": "https://roadmap.sh/data-engineer"},
+    {"name": "dbt", "category": "Data Engineering", "guide_url": "https://roadmap.sh/data-engineer"},
+    {"name": "Data Visualization", "category": "Analytics", "guide_url": "https://roadmap.sh/data-analyst"},
+    {"name": "Statistics", "category": "Math & ML", "guide_url": "https://roadmap.sh/ai-data-scientist"},
+    {"name": "Machine Learning", "category": "Math & ML", "guide_url": "https://roadmap.sh/ai-data-scientist"},
+    {"name": "Deep Learning", "category": "Math & ML", "guide_url": "https://roadmap.sh/ai-data-scientist"},
+    {"name": "LLMs & RAG", "category": "Generative AI", "guide_url": "https://roadmap.sh/ai-engineer"},
+    {"name": "Vector Databases", "category": "Databases", "guide_url": "https://roadmap.sh/ai-engineer"},
+    {"name": "FastAPI / REST APIs", "category": "Backend", "guide_url": "https://roadmap.sh/backend"},
+    {"name": "React", "category": "Frontend", "guide_url": "https://roadmap.sh/react"},
+    {"name": "Linux", "category": "Infrastructure", "guide_url": "https://roadmap.sh/linux"},
+    {"name": "CI/CD", "category": "DevOps", "guide_url": "https://roadmap.sh/devops"},
+    {"name": "Data Structures & Algorithms", "category": "Computer Science", "guide_url": "https://roadmap.sh/datastructures-and-algorithms"}
+  ],
+  "prerequisites": [
+    {"from_skill": "Python", "to_skill": "FastAPI / REST APIs"},
+    {"from_skill": "Python", "to_skill": "Machine Learning"},
+    {"from_skill": "Python", "to_skill": "ETL Pipelines"},
+    {"from_skill": "Python", "to_skill": "LLMs & RAG"},
+    {"from_skill": "Statistics", "to_skill": "Machine Learning"},
+    {"from_skill": "Machine Learning", "to_skill": "Deep Learning"},
+    {"from_skill": "SQL", "to_skill": "dbt"},
+    {"from_skill": "SQL", "to_skill": "ETL Pipelines"},
+    {"from_skill": "ETL Pipelines", "to_skill": "Apache Spark"},
+    {"from_skill": "Linux", "to_skill": "Docker"},
+    {"from_skill": "Docker", "to_skill": "CI/CD"},
+    {"from_skill": "Docker", "to_skill": "AWS / Cloud"},
+    {"from_skill": "JavaScript", "to_skill": "React"},
+    {"from_skill": "Neo4j & Cypher", "to_skill": "LLMs & RAG"},
+    {"from_skill": "Vector Databases", "to_skill": "LLMs & RAG"}
+  ],
+  "role_skills": [
+    {"role": "Data Analyst", "skill": "SQL", "importance": "Core", "stage": 1},
+    {"role": "Data Analyst", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "Data Analyst", "skill": "Statistics", "importance": "Bonus", "stage": 2},
+    {"role": "Data Analyst", "skill": "Data Visualization", "importance": "Core", "stage": 2},
+
+    {"role": "Analytics Engineer", "skill": "SQL", "importance": "Core", "stage": 1},
+    {"role": "Analytics Engineer", "skill": "Git & GitHub", "importance": "Core", "stage": 1},
+    {"role": "Analytics Engineer", "skill": "Python", "importance": "Core", "stage": 2},
+    {"role": "Analytics Engineer", "skill": "dbt", "importance": "Core", "stage": 2},
+    {"role": "Analytics Engineer", "skill": "ETL Pipelines", "importance": "Bonus", "stage": 3},
+
+    {"role": "Data Engineer", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "Data Engineer", "skill": "SQL", "importance": "Core", "stage": 1},
+    {"role": "Data Engineer", "skill": "ETL Pipelines", "importance": "Core", "stage": 2},
+    {"role": "Data Engineer", "skill": "Apache Spark", "importance": "Core", "stage": 3},
+    {"role": "Data Engineer", "skill": "Docker", "importance": "Bonus", "stage": 3},
+    {"role": "Data Engineer", "skill": "AWS / Cloud", "importance": "Bonus", "stage": 4},
+    {"role": "Data Engineer", "skill": "Neo4j & Cypher", "importance": "Bonus", "stage": 4},
+
+    {"role": "Data Scientist", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "Data Scientist", "skill": "SQL", "importance": "Core", "stage": 1},
+    {"role": "Data Scientist", "skill": "Statistics", "importance": "Core", "stage": 1},
+    {"role": "Data Scientist", "skill": "Machine Learning", "importance": "Core", "stage": 2},
+    {"role": "Data Scientist", "skill": "Data Visualization", "importance": "Bonus", "stage": 2},
+
+    {"role": "Machine Learning Engineer", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "Machine Learning Engineer", "skill": "Machine Learning", "importance": "Core", "stage": 2},
+    {"role": "Machine Learning Engineer", "skill": "Deep Learning", "importance": "Core", "stage": 3},
+    {"role": "Machine Learning Engineer", "skill": "FastAPI / REST APIs", "importance": "Bonus", "stage": 3},
+    {"role": "Machine Learning Engineer", "skill": "Docker", "importance": "Core", "stage": 4},
+    {"role": "Machine Learning Engineer", "skill": "AWS / Cloud", "importance": "Bonus", "stage": 4},
+
+    {"role": "AI & GraphRAG Engineer", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "AI & GraphRAG Engineer", "skill": "Neo4j & Cypher", "importance": "Core", "stage": 2},
+    {"role": "AI & GraphRAG Engineer", "skill": "Vector Databases", "importance": "Core", "stage": 2},
+    {"role": "AI & GraphRAG Engineer", "skill": "LLMs & RAG", "importance": "Core", "stage": 3},
+    {"role": "AI & GraphRAG Engineer", "skill": "FastAPI / REST APIs", "importance": "Bonus", "stage": 3},
+    {"role": "AI & GraphRAG Engineer", "skill": "Docker", "importance": "Bonus", "stage": 4},
+
+    {"role": "Backend Developer", "skill": "Python", "importance": "Core", "stage": 1},
+    {"role": "Backend Developer", "skill": "Git & GitHub", "importance": "Core", "stage": 1},
+    {"role": "Backend Developer", "skill": "SQL", "importance": "Core", "stage": 2},
+    {"role": "Backend Developer", "skill": "FastAPI / REST APIs", "importance": "Core", "stage": 2},
+    {"role": "Backend Developer", "skill": "Neo4j & Cypher", "importance": "Bonus", "stage": 3},
+    {"role": "Backend Developer", "skill": "Docker", "importance": "Bonus", "stage": 3},
+
+    {"role": "Full Stack Developer", "skill": "JavaScript", "importance": "Core", "stage": 1},
+    {"role": "Full Stack Developer", "skill": "Git & GitHub", "importance": "Core", "stage": 1},
+    {"role": "Full Stack Developer", "skill": "React", "importance": "Core", "stage": 2},
+    {"role": "Full Stack Developer", "skill": "SQL", "importance": "Core", "stage": 2},
+    {"role": "Full Stack Developer", "skill": "FastAPI / REST APIs", "importance": "Core", "stage": 3},
+
+    {"role": "DevOps & Cloud Engineer", "skill": "Linux", "importance": "Core", "stage": 1},
+    {"role": "DevOps & Cloud Engineer", "skill": "Python", "importance": "Bonus", "stage": 1},
+    {"role": "DevOps & Cloud Engineer", "skill": "Docker", "importance": "Core", "stage": 2},
+    {"role": "DevOps & Cloud Engineer", "skill": "CI/CD", "importance": "Core", "stage": 3},
+    {"role": "DevOps & Cloud Engineer", "skill": "AWS / Cloud", "importance": "Core", "stage": 3},
+
+    {"role": "Systems & C++ Developer", "skill": "C++", "importance": "Core", "stage": 1},
+    {"role": "Systems & C++ Developer", "skill": "Data Structures & Algorithms", "importance": "Core", "stage": 1},
+    {"role": "Systems & C++ Developer", "skill": "Git & GitHub", "importance": "Core", "stage": 1},
+    {"role": "Systems & C++ Developer", "skill": "Linux", "importance": "Core", "stage": 2},
+    {"role": "Systems & C++ Developer", "skill": "Python", "importance": "Bonus", "stage": 2}
+  ],
+  "courses": [
+    {"title": "Neo4j & Cypher Fundamentals", "platform": "Neo4j GraphAcademy", "level": "Beginner", "skill": "Neo4j & Cypher"},
+    {"title": "Building GraphRAG Applications", "platform": "Neo4j GraphAcademy", "level": "Intermediate", "skill": "LLMs & RAG"},
+    {"title": "Vector Search & Knowledge Graphs", "platform": "Neo4j GraphAcademy", "level": "Intermediate", "skill": "Vector Databases"},
+    {"title": "Data Engineering with Apache Spark", "platform": "Databricks Academy", "level": "Intermediate", "skill": "Apache Spark"},
+    {"title": "Modern ETL & Data Pipelines", "platform": "Coursera", "level": "Intermediate", "skill": "ETL Pipelines"},
+    {"title": "Analytics Engineering with dbt", "platform": "dbt Learn", "level": "Beginner", "skill": "dbt"},
+    {"title": "Docker & Containers in Practice", "platform": "Docker Docs", "level": "Beginner", "skill": "Docker"},
+    {"title": "AWS Cloud Practitioner Essentials", "platform": "AWS Skill Builder", "level": "Beginner", "skill": "AWS / Cloud"},
+    {"title": "FastAPI Production Web APIs", "platform": "FastAPI Docs", "level": "Intermediate", "skill": "FastAPI / REST APIs"},
+    {"title": "Machine Learning Specialization", "platform": "Coursera", "level": "Intermediate", "skill": "Machine Learning"},
+    {"title": "Deep Learning & Neural Networks", "platform": "DeepLearning.AI", "level": "Advanced", "skill": "Deep Learning"},
+    {"title": "Modern React & Frontend Architecture", "platform": "React Docs", "level": "Intermediate", "skill": "React"},
+    {"title": "Linux Command Line & Shell Scripting", "platform": "Linux Foundation", "level": "Beginner", "skill": "Linux"},
+    {"title": "CI/CD Automation with GitHub Actions", "platform": "GitHub Skills", "level": "Beginner", "skill": "CI/CD"}
+  ],
+  "transitions": [
+    {"from_role": "Data Analyst", "to_role": "Analytics Engineer", "difficulty": "Easy"},
+    {"from_role": "Data Analyst", "to_role": "Data Scientist", "difficulty": "Moderate"},
+    {"from_role": "Analytics Engineer", "to_role": "Data Engineer", "difficulty": "Easy"},
+    {"from_role": "Data Engineer", "to_role": "AI & GraphRAG Engineer", "difficulty": "Moderate"},
+    {"from_role": "Data Scientist", "to_role": "Machine Learning Engineer", "difficulty": "Moderate"},
+    {"from_role": "Machine Learning Engineer", "to_role": "AI & GraphRAG Engineer", "difficulty": "Easy"},
+    {"from_role": "Backend Developer", "to_role": "AI & GraphRAG Engineer", "difficulty": "Moderate"},
+    {"from_role": "Backend Developer", "to_role": "Full Stack Developer", "difficulty": "Easy"},
+    {"from_role": "Backend Developer", "to_role": "DevOps & Cloud Engineer", "difficulty": "Moderate"},
+    {"from_role": "Systems & C++ Developer", "to_role": "Backend Developer", "difficulty": "Moderate"}
+  ],
+  "candidates": [
+    {
+      "name": "Alex (CS Student)",
+      "current_role": "Systems & C++ Developer",
+      "skills": [
+        {"name": "Python", "proficiency": "Intermediate"},
+        {"name": "C++", "proficiency": "Advanced"},
+        {"name": "Data Structures & Algorithms", "proficiency": "Advanced"},
+        {"name": "Git & GitHub", "proficiency": "Intermediate"},
+        {"name": "Neo4j & Cypher", "proficiency": "Beginner"}
+      ]
+    },
+    {
+      "name": "Sara (Junior Analyst)",
+      "current_role": "Data Analyst",
+      "skills": [
+        {"name": "SQL", "proficiency": "Advanced"},
+        {"name": "Python", "proficiency": "Intermediate"},
+        {"name": "Data Visualization", "proficiency": "Advanced"},
+        {"name": "Statistics", "proficiency": "Intermediate"}
+      ]
+    },
+    {
+      "name": "Dev (Backend Dev)",
+      "current_role": "Backend Developer",
+      "skills": [
+        {"name": "Python", "proficiency": "Advanced"},
+        {"name": "FastAPI / REST APIs", "proficiency": "Advanced"},
+        {"name": "SQL", "proficiency": "Intermediate"},
+        {"name": "Git & GitHub", "proficiency": "Advanced"},
+        {"name": "Docker", "proficiency": "Intermediate"}
+      ]
+    }
+  ]
+}

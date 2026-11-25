@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.html
+venv/
+EXTRA FILES AND IDEAS/
