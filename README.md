@@ -17,6 +17,8 @@ Instead of relying on flat keyword matching, this application models tech roles,
 
 ### 1. Roles & Roadmap
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/e5f1a1e6-4616-4dfb-a794-cd015a3a698c" />
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/8d0c8af9-d72b-4cc5-b11c-fb181fc61341" />
+
 
 
 ### 2. Skill-Gap Graph
